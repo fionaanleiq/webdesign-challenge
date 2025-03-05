@@ -1,8 +1,13 @@
 @import "tailwindcss";
 
+
 @theme {
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
+
+  --color-purple: #2D68F8;
+  --color-grayborder: #DFE4EA;
+  --color-lightPurple: #D4CBFF66;
 }
 
 :root {
