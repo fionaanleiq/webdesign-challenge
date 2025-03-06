@@ -1,7 +1,6 @@
 import { toProperCase } from "@/utils/dataUtils";
-import Image, { StaticImageData } from "next/image";
 
-export const CheckButton: React.FC<{ label: string, image?: StaticImageData }> = ({ label, image }) => {
+export const CheckButton: React.FC<{ label: string }> = ({ label }) => {
 
     return (
         <button className={`flex flex-row gap-x-2 rounded-md py-[12px] px-[16px] text-sm hover:text-purple border-1 border-greyborder active:text-white active:bg-purple transition-border delay-150 transition delay-150 duration-300`}>

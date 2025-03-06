@@ -1,4 +1,4 @@
-import Image, { StaticImageData } from "next/image";
+import Image from "next/image";
 
 export type buttonOption = { src: string, width: number, height: number, alt: string }
 
