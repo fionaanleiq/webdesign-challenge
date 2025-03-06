@@ -3,7 +3,7 @@ import { Button } from "../buttons/Button";
 
 export const Card: React.FC<{ title: string, description: string, image: StaticImageData, alt: string }> = ({ title, description, image, alt }) => {
     return (
-        <div className="flex flex-col rounded-md w-67 h-105 shadow-sm overflow-hidden">
+        <div className="flex flex-col rounded-md w-67 min-w-67 h-105 shadow-sm overflow-hidden">
             <div className="w-[370px] h-[160px] overflow-hidden">
                 <Image src={image} width={268} height={230} alt={alt} />
             </div>

@@ -4,8 +4,8 @@ import { NavigationBar } from "./NavigationBar"
 
 export const Header = () => {
     return (
-        <div className="flex items-center justify-between max-w- w-full h-[88px] px-[124px]">
-            <Image src={aiqueLogo} alt="Aique logo" className="w-[32px] h-[32px]" />
+        <div className="flex items-center justify-between w-full h-[88px] px-[15px] md:px-[124px] gap-x-4 pt-[64px] md:pt-0">
+            <Image src={aiqueLogo} alt="Aique logo" className="w-[25px] h-[25px]" />
             <NavigationBar />
         </div>
     )

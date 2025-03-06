@@ -26,4 +26,22 @@ body {
   color: var(--foreground);
   background: var(--background);
   font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.apply-purpleCircle {
+  background: radial-gradient(50% 50% at 50% 50%, #2D68F8 0%, #E72DF8 100%);
+  border-radius: 110px;
+}
+
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
+
+/* For IE, Edge and Firefox */
+.scrollbar-hide {
+  -ms-overflow-style: none;
+  /* IE and Edge */
+  scrollbar-width: none;
+  /* Firefox */
 }

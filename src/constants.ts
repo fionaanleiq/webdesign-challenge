@@ -39,6 +39,12 @@ export const cardDetails = [
         description: "Lorem ipsum dolor sit amet pretium consectetur adipiscing elit. Lorem consectetur adipiscing elit. ",
         path: photo_4,
         alt: "Alt 4"
+    },
+    {
+        title: "50+ Best creative website themes & templates",
+        description: "Lorem ipsum dolor sit amet pretium consectetur adipiscing elit. Lorem consectetur adipiscing elit. ",
+        path: photo_4,
+        alt: "Alt 5"
     }
 ]
 
