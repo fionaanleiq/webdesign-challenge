@@ -1,6 +1,5 @@
 import Image from "next/image";
 import icon from "../../public/icon.png"
-import rocketBtnIcon from "../../public/rocket-wht-btn-icon.svg";
 import { TitleText } from "../components/TitleText"
 import { CheckButton } from "@/components/buttons/CheckButton";
 import { CardGroup } from "../components/cards/CardGroup";
@@ -19,7 +18,7 @@ export default function Home() {
         <p className="text-xs w-3/4 text-center mb-3">
           This 2025, Aique DANG aims to optimize internal structures and processes, ensuring enhanced reliability, integrity, and efficiency, ultimately driving increased profitability for its clients.
         </p>
-        <CheckButton label="Check our solutions" image={rocketBtnIcon} />
+        <CheckButton label="Check our solutions"/>
       </div>
       <CardGroup />
 
